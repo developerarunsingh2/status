@@ -1,3 +1,3 @@
 # status
 
-Here I will add my daily status
+Here I will add my daily status updates
