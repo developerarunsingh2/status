@@ -6,10 +6,10 @@ pipeline {
             steps {
                 // Check out your GitHub repository
                 checkout([$class: 'GitSCM',
-                    branches: [[name: '*/master']], // Branch to build
+                    branches: [[name: '*/main']], // Branch to build
                     userRemoteConfigs: [[
-                        url: 'https://github.com/yourusername/your-java-project.git', // GitHub repository URL
-                        credentialsId: 'your-github-credentials-id' // Credential ID from Jenkins
+                        url: 'https://github.com/developerarunsingh2/status.git', // GitHub repository URL
+                        credentialsId: '1bc7e185-87ad-43f3-8ae4-df9809ecc98c' // Credential ID from Jenkins
                     ]]
                 ])
             }
